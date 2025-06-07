@@ -42,11 +42,13 @@ export default function Navbar() {
     //       : "bg-gradient-to-r from-orange-500/10 to-red-500/10 backdrop-blur-sm"
     //   }`}
     // >
+
+    //navbar glass effect
     <nav
   className={`fixed top-0 w-full z-50 transition-all duration-300 ${
     scrolled
-      ? "bg-white/80 backdrop-blur-md border-b border-white/10 shadow-lg"
-      : "bg-white/60 backdrop-blur-xl"
+      ? "bg-white/60 backdrop-blur-md border-b border-white/20 shadow-lg"
+      : "bg-white/100 "
   }`}
 >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -54,7 +56,7 @@ export default function Navbar() {
           {/* Logo */}
           <div className="flex-shrink-0">
               <Link href="/">
-               <Image src="/assets/logo.png" alt="Logo" width={100} height={100} />
+               <Image src="/assets/logo.png" alt="Logo" width={170} height={100} />
               </Link>
           </div>
 
