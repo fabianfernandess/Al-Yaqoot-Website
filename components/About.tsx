@@ -31,9 +31,10 @@ export default function About() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Image Side */}
           <div className="relative">
-            <div className="relative h-96 lg:h-[500px] rounded-2xl overflow-hidden shadow-2xl">
+            <div className="relative h-96 lg:h-[650px] rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="/placeholder.svg?height=500&width=600"
+                // src="/placeholder.svg?height=500&width=600"
+                src="/assets/about_landing.jpeg?height=500&width=600"
                 alt="Our signage workshop and team"
                 fill
                 className="object-cover"
